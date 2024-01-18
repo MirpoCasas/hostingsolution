@@ -218,6 +218,7 @@ a{
   left: 100vw;
   padding: 23px 27px;
   transition: left 0.5s ease;
+  transform: translate3d(0, 0, 0);
 }
 
 .mobileMenuTop {
