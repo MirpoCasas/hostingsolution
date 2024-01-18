@@ -100,6 +100,7 @@ a{
   backdrop-filter: blur(25px);
   width: 92vw;
   height: 52px;
+  z-index: 2;
 }
 
 .navLinks {
