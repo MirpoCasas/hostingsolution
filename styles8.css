@@ -293,8 +293,7 @@ a{
 .backgroundWrap {
   position: absolute;
   display: flex;
-  top: auto;
-  bottom: 110px;
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
   overflow-y: hidden;
@@ -315,6 +314,7 @@ a{
 
 .mainContentTop {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -928,9 +928,11 @@ footer .signupWrap {
     & h1 {
       font-weight: 600;
       font-size: 60px;
+      width: 900px;
     }
     & p {
       font-size: 18px;
+      width: max-content;
     }
   }
 
