@@ -322,7 +322,7 @@ a{
   min-height: 90dvh;
   gap: 15px;
   padding-top: 128px;
-  height: 100dvh;
+  height: 900px;
 
   & .orderButton {
     margin: 0;
