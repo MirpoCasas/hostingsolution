@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         players[index] = new YT.Player(iframe);
         console.log(players);
       });
+      loaded = true;
     }
 
 
