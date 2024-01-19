@@ -3,6 +3,7 @@
 
       // Function to create YouTube players
       window.onYouTubeIframeAPIReady = function () {
+        console.log("YouTube Iframe API is ready");
         const iframes = document.querySelectorAll("iframe");
         iframes.forEach((iframe, index) => {
           players[index] = new YT.Player(iframe);
