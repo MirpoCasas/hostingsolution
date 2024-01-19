@@ -2,14 +2,14 @@
       let players = [];
 
       // Function to create YouTube players
-      window.onYouTubeIframeAPIReady = function () {
-        console.log("YouTube Iframe API is ready");
-        const iframes = document.querySelectorAll("iframe");
-        iframes.forEach((iframe, index) => {
-          players[index] = new YT.Player(iframe);
-          console.log(players);
-        });
-      };
+document.addEventListener('YouTubeIframeAPIReady', function () {
+  console.log("YouTube Iframe API is ready");
+  const iframes = document.querySelectorAll("iframe");
+  iframes.forEach((iframe, index) => {
+    players[index] = new YT.Player(iframe);
+    console.log(players);
+  });
+});
 
       document.addEventListener("DOMContentLoaded", (event) => {
         const leftArrow = document.querySelector(".ArowLeft");
