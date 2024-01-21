@@ -938,7 +938,7 @@ footer .signupWrap {
 
   .mainContentTop {
     padding-top: 280px;
-    gap: 35px;
+    gap: 47px;
     & h1 {
       font-weight: 600;
       font-size: 60px;
@@ -947,6 +947,7 @@ footer .signupWrap {
     & p {
       font-size: 18px;
       width: max-content;
+      margin: 0px 0px 1px 0px;
     }
   }
 
@@ -974,6 +975,8 @@ footer .signupWrap {
     align-items: center;
     width: min-content;
     gap: 10px;
+    margin: 0;
+    margin-top: -12px;
 
     & p {
       margin: 0;
