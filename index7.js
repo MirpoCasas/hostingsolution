@@ -18,16 +18,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const rightArrow = document.querySelector(".ArowRight");
   const burgerMenu = document.querySelector(".burgerMenu");
   const closeCross = document.querySelector(".closeCross");
-  const carouselItems = Array.from(
-    document.querySelectorAll(".carouseleItem")
-  );
+  const carouselItems = Array.from(document.querySelectorAll(".carouseleItem"));
   const indexElements = Array.from(
     document.querySelectorAll(".imgWrapCarousele")
   );
 
-
   function pauseAndSeekVideos() {
-
     if (!loaded) {
       const iframes = document.querySelectorAll("iframe");
       iframes.forEach((iframe, index) => {
@@ -37,13 +33,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
       loaded = true;
     }
 
-
     players.forEach((player) => {
-      if (
-        player &&
-        player.getPlayerState &&
-        player.getPlayerState() === 1
-      ) {
+      if (player && player.getPlayerState && player.getPlayerState() === 1) {
         player.pauseVideo();
         player.seekTo(0);
       }
@@ -55,7 +46,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     );
     indexElements.forEach((indexElement, index) => {
       if (index === activeIndex) {
-        indexElement.querySelector("img").src = "https://storage.googleapis.com/fameflame/activeTest.svg";
+        indexElement.querySelector("img").src =
+          "https://storage.googleapis.com/fameflame/activeTest.svg";
       } else {
         indexElement.querySelector("img").src =
           "https://storage.googleapis.com/fameflame/inactiveTest.svg";
@@ -123,7 +115,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   closeCross.addEventListener("click", closeMobileMenu);
 
   // Get all the anchor elements inside the mobile menu
-  const menuLinks = document.querySelectorAll(".mobileMenu a");
+  const menuLinks = document.querySelectorAll(".mobileMenuCont ul a");
 
   // Add a click event listener to each link
   menuLinks.forEach((link) => {
@@ -147,10 +139,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       if (radioButton.checked && event.target.tagName !== "INPUT") {
         event.preventDefault(); // Prevent the default action (which is to check the radio button)
         radioButton.checked = false; // Uncheck the radio button
-      } else if (
-        !radioButton.checked &&
-        event.target.tagName !== "INPUT"
-      ) {
+      } else if (!radioButton.checked && event.target.tagName !== "INPUT") {
         radioButton.checked = true; // Check the radio button
       }
     });
