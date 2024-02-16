@@ -501,6 +501,11 @@ a {
   width: 100%;
 }
 
+.mobIcon {
+    width: 34px;
+    height: 34px;
+}
+
 .mobhowItem,
 .mobilereferalsItem {
   display: flex;
@@ -508,10 +513,6 @@ a {
   justify-content: space-between;
   gap: 10px;
 
-  & img {
-    width: 34px;
-    height: 34px;
-  }
 
   & p {
     margin: 0;
