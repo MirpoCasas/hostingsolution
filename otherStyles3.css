@@ -307,7 +307,7 @@ a {
 
 .background {
   animation: scaleImage 10s linear infinite alternate;
-  content: url("https://storage.googleapis.com/fameflame/backgroundMobile.png");
+  content: url("https://storage.googleapis.com/fameflame-pics/backgroundMobile.png");
   width: 100vw;
   top: 0vw;
   max-width: 100vw;
@@ -407,7 +407,7 @@ a {
 }
 
 .socialMedias {
-  content: url("https://storage.googleapis.com/fameflame/correctMobileSocials.svg");
+  content: url("https://storage.googleapis.com/fameflame-pics/correctMobileSocials.svg");
 }
 
 .benefits {
@@ -851,7 +851,7 @@ footer .signupWrap {
   }
 
   .background {
-    content: url("https://storage.googleapis.com/fameflame/background.png");
+    content: url("https://storage.googleapis.com/fameflame-pics/background.png");
     width: 75vw;
     max-width: none;
   }
@@ -922,7 +922,7 @@ footer .signupWrap {
   }
 
   .background {
-    content: url("https://storage.googleapis.com/fameflame/background.png");
+    content: url("https://storage.googleapis.com/fameflame-pics/background.png");
     width: auto;
     max-width: none;
   }
@@ -1000,7 +1000,7 @@ footer .signupWrap {
   }
 
   .socialMedias {
-    content: url("https://storage.googleapis.com/fameflame/SocialMedias.svg");
+    content: url("https://storage.googleapis.com/fameflame-pics/SocialMedias.svg");
   }
 
   .benefits {
