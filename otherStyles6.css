@@ -307,7 +307,7 @@ a {
 
 .background {
   animation: scaleImage 10s linear infinite alternate;
-  content: url("https://storage.googleapis.com/fameflame-pics/backgroundMobile.png");
+  content: url("https://storage.googleapis.com/fameflame-pics/backgroundMobile2.png");
   width: 100vw;
   top: 0vw;
   max-width: 100vw;
@@ -924,7 +924,7 @@ footer .signupWrap {
 
   .background {
     content: url("https://storage.googleapis.com/fameflame-pics/background.png");
-    width: auto;
+    width: 1700px;
     max-width: none;
   }
 
