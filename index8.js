@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     indexElements.forEach((indexElement, index) => {
       if (index === activeIndex) {
         indexElement.querySelector("img").src =
-          "https://storage.googleapis.com/fameflame/activeTest.svg";
+          "https://storage.googleapis.com/fameflame-pics/activeTest.svg";
       } else {
         indexElement.querySelector("img").src =
-          "https://storage.googleapis.com/fameflame/inactiveTest.svg";
+          "https://storage.googleapis.com/fameflame-pics/inactiveTest.svg";
       }
     });
   }
