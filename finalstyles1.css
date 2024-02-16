@@ -928,6 +928,7 @@ footer .signupWrap {
     content: url("https://storage.googleapis.com/fameflame-pics/background.png");
     width: 1700px;
     max-width: none;
+    position: static;
   }
 
   @keyframes scaleImage {
